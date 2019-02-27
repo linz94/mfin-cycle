@@ -28,5 +28,8 @@ python test_mfin_cycle.py l2
 for the pre-trained model with L2 norm based loss function.
 
 To visualize the results, please use the matlab script ```show_results.m```.
+<<<<<<< HEAD
 
+=======
+>>>>>>> bc6fc850482a374a66e76c2ddda3fb22815027c5
 
