@@ -11,7 +11,7 @@ end
 addpath('examples')
 
 load('examples/imgs.mat')
-load('mfin_cycle_results.mat')
+load('examples/mfin_cycle_results.mat')
 
 % visualization
 dx=4;
