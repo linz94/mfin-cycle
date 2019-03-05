@@ -6,11 +6,11 @@ This repository contains the tensorflow implementation for the MFIN network pres
 If you use the code, please cite our paper
 
 Temporal Interpolation via Motion Field Prediction <br>
-Lin Zhang*, Neerav Karani*, Christine Tanner, Ender Konukoglu <br>
+Authors: Lin Zhang*, Neerav Karani*, Christine Tanner, Ender Konukoglu <br>
 MIDL 2018. [arXiv:1804.04440](https://arxiv.org/abs/1804.04440)
 
-An image interpolation approach for acquisition time reduction in navigator-based 4D MRI <br>
-Neerav Karani*, Lin Zhang*, Christine Tanner, Ender Konukoglu <br>
+An Image Interpolation Approach for Acquisition Time Reduction in Navigator-based 4D MRI <br>
+Authors: Neerav Karani*, Lin Zhang*, Christine Tanner, Ender Konukoglu <br>
 Medical Image Analysis 2019. [https://doi.org/10.1016/j.media.2019.02.008](https://doi.org/10.1016/j.media.2019.02.008)
 
 
