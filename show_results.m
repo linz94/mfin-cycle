@@ -17,7 +17,7 @@ load('examples/mfin_cycle_results.mat')
 dx=4;
 [X,Y] = meshgrid(1:dx:224,1:dx:224);
 
-for i = 1:20
+for i = 1:size(x3_hat,1)
 
 u_im1 = squeeze(p1(i,:,:,1));
 v_im1 = squeeze(p1(i,:,:,2));
@@ -75,6 +75,6 @@ axis equal
 axis tight
 axis off
 
-pause(0.1)
+pause(0.3)
 
 end
