@@ -16,6 +16,9 @@ import tensorflow as tf
 
 
 def _tf_fspecial_gauss(size, sigma):
+    """
+    copied from [2]
+    """
     """Function to mimic the 'fspecial' gaussian MATLAB function
     """
     x_data, y_data = np.mgrid[-size//2 + 1:size//2 + 1, -size//2 + 1:size//2 + 1]
@@ -34,6 +37,9 @@ def _tf_fspecial_gauss(size, sigma):
 
 
 def tf_ssim(img1, img2, cs_map=False, mean_metric=True, size=11, sigma=1.5):
+    """
+    copied from [2]
+    """
     window = _tf_fspecial_gauss(size, sigma) # window shape [size, size]
     K1 = 0.01
     K2 = 0.03
@@ -227,6 +233,9 @@ def get_pixel_value(img, x, y, mode):
 
 
 def bilinear_interpolator(img, p, mode):
+    """
+    adapted from [1]
+    """
     
     max_y = tf.cast(224 - 1, 'int32')
     max_x = tf.cast(224 - 1, 'int32')
