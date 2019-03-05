@@ -333,10 +333,6 @@ def forward(input_shape, imsim):
     
     flow_new = tranformation_composition(flow2, flow3)
             
-    # cost - reconstruction error
-    cost1 = 1 - tf_ssim(x3, x2_interp)
-    cost2 = 1 - tf_ssim(x3, x4_interp)
-    cost3 = 1 - tf_ssim(x4, x3_interp)
     
     flow1U = tf.expand_dims(flow1[:,:,:,0], axis=3)
     flow1V = tf.expand_dims(flow1[:,:,:,1], axis=3)
